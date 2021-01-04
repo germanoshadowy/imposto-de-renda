@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Calculadora de Salário Líquido</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="imposto de renda">
+  <meta name="author" content="Germano da Silva Pinheiro">
+  <link rel="stylesheet" href="./style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <nav>
+	  <div id="logo-nav"></div>
+	  <div><p id="text-nav"> Calculadora Salário Líquido</div>
+
+  </nav>
+
+  <div id="divdobotao">
+    <form>
+      <input type="text" class="input" id="nome" placeholder="Digite seu nome" required>
+      <br>
+      <input type="text" class="input" id="salarioBruto" placeholder="Digite seu salário bruto" required>
+    </form>
+	<div id="btn">
+	 <button onclick="salarioL()" class="btn">CALCULAR</button>
+  </div>
+
+	<div>
+	    <table id="tabelinha">
+		    <thead>
+			    <th>Seu nome</th>
+			    <th>Seu desconto do INSS</th>
+          <th>Seu desconto do IRPF</th>
+          <th>Seu salário bruto</th>
+			    <th>Salário Líquido Final</th>
+		    </thead>
+	    </table>
+	</div>
+  <br>
+  
+  <footer>German Shadowy &copy; 2020</footer>
+</body>
+
+</html>
